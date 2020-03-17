@@ -54,7 +54,6 @@ Route::prefix('roadmaps')->group(function() {
 	// Roadmap Enrollment
 	Route::post('enrollments/create', 'RoadmapsController@create_enrollment');
 	Route::get('enrollments/read', 'RoadmapsController@read_enrollment');
-	Route::post('enrollments/update', 'RoadmapsController@update_enrollment');
 	Route::post('enrollments/delete', 'RoadmapsController@delete_enrollment');
 	Route::get('enrollments/get', 'RoadmapsController@get_enrollment');
 });
